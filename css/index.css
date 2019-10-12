@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+
+:root {
+    --accent-color: #793cab;
+    --main-color:#050e05;
+    --text-color: white;
+    --var--color: #512a90;
+    --yellow-color: #ff0;
+    font-family: 'Bad Script', cursive;
+    scroll-behavior: smooth;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+header {
+    height: 45px;
+}
+header nav ul li {
+    padding: 5px;
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
