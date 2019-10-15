@@ -12,15 +12,37 @@
     color: var(--text-color);
 }
 
-header nav ul li {
-    padding: 5px;
+body {
+    max-width: 980px;
+    min-width: 525px;
+    margin: auto;
+}
+
+@media (min-width: 690px) {
+    header nav {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+header nav a img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 90px;
+    width: 163px;
+    border-radius: 50px;
 }
 
 header nav .menu {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     list-style-type: none;
+    padding: 0;
+    top: 0;
+}
+
+header nav ul li {
+    margin-top: 10px;
+    padding: 5px;
 }
 
 header nav .menu a {
@@ -31,6 +53,11 @@ header nav .menu a {
 }
 
 header nav .menu a:hover {
-    border: 1px solid var(--yellow-color);
-    color: var(--yellow-color);
+    border: 1px solid var(--var--color);
+    color: var(--main-color);
+    background-color: var(--text-color);
+}
+
+header img {
+    width: 980px;
 }
